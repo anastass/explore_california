@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practical CSS List Styles</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            * {margin: 0; padding: 0;}
+            body {
+                background: LemonChiffon ;
+            }
+            h1 {
+                color: GoldenRod;
+                font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            /* default hr definition
+                hr { 
+                    display: block; 
+                    height: 1px;
+                    border: 0; 
+                    border-top: 1px solid #ccc;
+                    margin: 1em 0; padding: 0; 
+                }
+            */
+            hr {
+                border-color: GoldenRod;    /* color does not work */
+                margin-bottom: 10px;
+            }
+            div {
+                margin: 20px;
+            }
+            ul {
+                list-style-type: none;
+                width: 500px;
+            }
+            h3 {
+                font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+            }
+            li img {
+                float: left;
+                margin: 0 15px 0 0;
+            }
+            li p {
+                font: 200 12px/1.5 Georgia, Times New Roman, serif;
+            }
+            li {
+                padding: 10px;
+                overflow: auto;
+            }
+            li:hover {
+                background: #eee;
+                cursor: pointer;
+            }
+            img {
+                border: 2px solid #B22222;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Practical CSS List Styles</h1>
+            <hr/>
+            <ul>
+                <li>
+                    <a href="helveti_list.html">
+                        <img src="images/list_001.jpg"/>
+                        <h3>HelvetiList</h3>
+                        <p>An animated vertical list.</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="thumbnail_list.html">
+                        <img src="images/list_002.jpg"/>
+                        <h3>Thumbnail List</h3>
+                        <p>List with thumbnails and text.</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="thumbnail_grid.html">
+                        <img src="images/list_003.jpg"/>
+                        <h3>Standard Thumbnail Grid</h3>
+                        <p>Grid with images.</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="horizontal_menu.html">
+                        <img src="images/list_004.jpg"/>
+                        <h3>Horizontal Menu</h3>
+                        <p>Use lists for horizontal navigation menus.</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="big_number_list.html">
+                        <img src="images/list_005.jpg"/>
+                        <h3>Big Number Order List</h3>
+                        <p>Order list where the numbers are styled differently.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
